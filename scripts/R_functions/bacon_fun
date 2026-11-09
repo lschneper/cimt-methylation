@@ -1,0 +1,8 @@
+bacon_fun<-function(df){
+  bc<-bacon(teststatistics = df$t,effectsizes = df$Coefficient,standarderrors = df$StdError)
+  df$bacon.P.Value <- as.numeric(pval(bc)[,1])
+  df$bacon.est <- as.numeric(es(bc)[,1])
+  df$bacon.se <- as.numeric(se(bc)[,1])
+  return(df)
+}
+

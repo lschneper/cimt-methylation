@@ -1,0 +1,57 @@
+R version 4.4.2 (2024-10-31)
+Platform: x86_64-redhat-linux-gnu
+Running under: Red Hat Enterprise Linux 9.8 (Plow)
+
+Matrix products: default
+BLAS/LAPACK: FlexiBLAS OPENBLAS-OPENMP;  LAPACK version 3.9.0
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C               LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8     LC_MONETARY=en_US.UTF-8   
+ [6] LC_MESSAGES=en_US.UTF-8    LC_PAPER=en_US.UTF-8       LC_NAME=C                  LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+time zone: America/New_York
+tzcode source: system (glibc)
+
+attached base packages:
+[1] parallel  stats4    stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] IlluminaHumanMethylation450kmanifest_0.4.0          illuminaio_0.46.0                                  
+ [3] IlluminaHumanMethylationEPICanno.ilm10b4.hg19_0.6.0 IlluminaHumanMethylationEPICmanifest_0.3.0         
+ [5] ENmix_1.40.2                                        doParallel_1.0.17                                  
+ [7] magrittr_2.0.3                                      boot_1.3-31                                        
+ [9] purrr_1.0.2                                         minfi_1.50.0                                       
+[11] bumphunter_1.46.0                                   locfit_1.5-9.10                                    
+[13] iterators_1.0.14                                    foreach_1.5.2                                      
+[15] Biostrings_2.72.1                                   XVector_0.44.0                                     
+[17] SummarizedExperiment_1.34.0                         Biobase_2.50.0                                     
+[19] MatrixGenerics_1.16.0                               matrixStats_1.4.0                                  
+[21] GenomicRanges_1.56.1                                GenomeInfoDb_1.40.1                                
+[23] IRanges_2.38.1                                      S4Vectors_0.42.1                                   
+[25] BiocGenerics_0.50.0                                
+
+loaded via a namespace (and not attached):
+  [1] RColorBrewer_1.1-3        rstudioapi_0.16.0         jsonlite_1.8.8            GenomicFeatures_1.56.0    BiocIO_1.14.0            
+  [6] zlibbioc_1.36.0           vctrs_0.6.5               multtest_2.60.0           memoise_2.0.1             Rsamtools_2.20.0         
+ [11] DelayedMatrixStats_1.26.0 RCurl_1.98-1.16           askpass_1.2.0             S4Arrays_1.4.1            dynamicTreeCut_1.63-1    
+ [16] AnnotationHub_3.12.0      curl_5.2.2                Rhdf5lib_1.26.0           SparseArray_1.4.8         rhdf5_2.48.0             
+ [21] RPMM_1.25                 KernSmooth_2.23-24        nor1mix_1.3-3             plyr_1.8.9                impute_1.78.0            
+ [26] cachem_1.1.0              GenomicAlignments_1.40.0  lifecycle_1.0.4           pkgconfig_2.0.3           Matrix_1.7-1             
+ [31] R6_2.5.1                  fastmap_1.2.0             GenomeInfoDbData_1.2.12   digest_0.6.37             siggenes_1.78.0          
+ [36] reshape_0.8.9             AnnotationDbi_1.70.0      irlba_2.3.5.1             geneplotter_1.82.0        ExperimentHub_2.12.0     
+ [41] RSQLite_2.3.7             base64_2.0.1              filelock_1.0.3            fansi_1.0.6               httr_1.4.7               
+ [46] abind_1.4-5               compiler_4.4.2            beanplot_1.3.1            rngtools_1.5.2            bit64_4.0.5              
+ [51] BiocParallel_1.24.1       DBI_1.2.3                 gplots_3.1.3.1            HDF5Array_1.32.1          MASS_7.3-61              
+ [56] openssl_2.2.1             rappdirs_0.3.3            DelayedArray_0.30.1       rjson_0.2.22              caTools_1.18.3           
+ [61] gtools_3.9.5              tools_4.4.2               glue_1.7.0                quadprog_1.5-8            restfulr_0.0.15          
+ [66] nlme_3.1-166              rhdf5filters_1.16.0       grid_4.4.2                cluster_2.1.6             generics_0.1.3           
+ [71] tzdb_0.4.0                preprocessCore_1.66.0     tidyr_1.3.1               data.table_1.16.0         hms_1.1.3                
+ [76] xml2_1.3.6                utf8_1.2.4                BiocVersion_3.19.1        pillar_1.9.0              limma_3.60.4             
+ [81] genefilter_1.86.0         splines_4.4.2             dplyr_1.1.4               BiocFileCache_2.12.0      lattice_0.22-6           
+ [86] survival_3.7-0            rtracklayer_1.64.0        bit_4.0.5                 GEOquery_2.72.0           annotate_1.82.0          
+ [91] tidyselect_1.2.1          scrime_1.3.5              statmod_1.5.0             UCSC.utils_1.0.0          yaml_2.3.10              
+ [96] codetools_0.2-20          tibble_3.2.1              BiocManager_1.30.25       cli_3.6.3                 xtable_1.8-4             
+[101] Rcpp_1.0.13               dbplyr_2.5.0              png_0.1-8                 XML_3.99-0.17             readr_2.1.5              
+[106] blob_1.2.4                mclust_6.1.1              doRNG_1.8.6               sparseMatrixStats_1.16.0  bitops_1.0-8             
+[111] crayon_1.5.3              rlang_1.1.4               KEGGREST_1.44.1          
