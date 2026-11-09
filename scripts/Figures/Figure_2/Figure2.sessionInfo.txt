@@ -1,0 +1,29 @@
+R version 4.5.1 (2025-06-13)
+Platform: x86_64-redhat-linux-gnu
+Running under: Red Hat Enterprise Linux 9.8 (Plow)
+
+Matrix products: default
+BLAS/LAPACK: FlexiBLAS OPENBLAS-OPENMP;  LAPACK version 3.9.0
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C               LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8    LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C             LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+time zone: America/New_York
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] ggsignif_0.6.4       ggpubr_0.6.1         FSA_0.10.0           dplyr_1.1.4          RColorBrewer_1.1-3   Cairo_1.6-2         
+[7] colorBlindness_0.1.9 MASS_7.3-61          ggplot2_4.0.0       
+
+loaded via a namespace (and not attached):
+ [1] gtable_0.3.6       compiler_4.5.1     tidyselect_1.2.1   gridGraphics_0.5-1 tidyr_1.3.2        scales_1.4.0       R6_2.5.1          
+ [8] labeling_0.4.3     generics_0.1.3     Formula_1.2-5      backports_1.5.0    tibble_3.2.1       car_3.1-3          pillar_1.9.0      
+[15] rlang_1.1.6        utf8_1.2.4         broom_1.0.10       S7_0.2.0           cli_3.6.3          withr_3.0.1        magrittr_2.0.3    
+[22] grid_4.5.1         rstudioapi_0.17.1  cowplot_1.1.3      lifecycle_1.0.4    vctrs_0.6.5        rstatix_0.7.2      glue_1.7.0        
+[29] farver_2.1.2       abind_1.4-8        dunn.test_1.3.6    carData_3.0-5      fansi_1.0.6        colorspace_2.1-1   purrr_1.1.0       
+[36] tools_4.5.1        pkgconfig_2.0.3   
